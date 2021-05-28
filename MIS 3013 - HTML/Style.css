@@ -1,0 +1,50 @@
+﻿nav {
+background-color: crimson;
+float: left;
+height: 100vh;
+padding: 15px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+li a {
+background-color: white;
+color: crimson;
+text-transform: uppercase;
+text-decoration: none;
+margin: 5px;
+padding: 1em 1.5em;
+display: block;
+border-radius: 20px;
+}
+
+div {
+margin: 25px;
+}
+
+#main {
+float: left;
+display: block;
+}
+
+#Information {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+background-color: gray;
+border: 5px solid black;
+padding: 15px;
+margin: 25px;
+width: 250px;
+}
+
+#Information:hover{
+transition:transform .5s ease-in-out;
+transform:rotate(-270deg) scale(2);
+}
+
+li a:hover {
+background-color: #555;
+}
