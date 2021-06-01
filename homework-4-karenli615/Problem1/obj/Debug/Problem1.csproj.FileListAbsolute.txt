@@ -1,0 +1,2 @@
+C:\Users\Karen Li\source\repos\MIS-3033\homework-4-karenli615\Problem1\obj\Debug\Problem1.csprojAssemblyReference.cache
+C:\Users\Karen Li\source\repos\MIS-3033\homework-4-karenli615\Problem1\obj\Debug\Problem1.csproj.CoreCompileInputs.cache

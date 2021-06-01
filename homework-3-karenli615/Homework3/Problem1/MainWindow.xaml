@@ -1,0 +1,20 @@
+﻿<Window x:Class="Problem1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Problem1"
+        mc:Ignorable="d"
+        Title="TV Show Information" Height="450" Width="800">
+    <Grid Background="#FFEADAA3">
+        <Label Content="TV Show Data" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="30" FontFamily="Arial Black" Height="49" Width="244"/>
+        <Label Content="Rating" HorizontalAlignment="Left" Margin="56,125,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15"/>
+        <Label Content="Country" HorizontalAlignment="Left" Margin="278,125,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15"/>
+        <Label Content="Language" HorizontalAlignment="Left" Margin="513,122,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="15"/>
+        <ComboBox x:Name="CboxRating" HorizontalAlignment="Left" Margin="117,130,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CboxRating_SelectionChanged"/>
+        <ComboBox x:Name="CBoxCountry" HorizontalAlignment="Left" Margin="350,130,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CBoxCountry_SelectionChanged"/>
+        <ComboBox x:Name="CBoxLanguage" HorizontalAlignment="Left" Margin="597,126,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CBoxLanguage_SelectionChanged"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Center" Margin="0,184,0,0" VerticalAlignment="Top" Height="33" Width="86" Click="btnReset_Click"/>
+        <ListBox x:Name="lstShows" Margin="0,241,0,0" Opacity="0.65" SelectionChanged="lstShows_SelectionChanged"/>
+    </Grid>
+</Window>
